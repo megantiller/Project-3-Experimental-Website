@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Paper Doll Example</title>
+  <link href="css/main.css" type="text/css" rel="stylesheet">
+  <script src="js/main.js" type="text/javascript"></script>
+</head>
+<body>
+  <div id="doll">
+    <img src="images/Body.png">
+    <div id="head"></div>
+    <div id="torso"></div>
+    <div id="legs"></div>
+  </div>
+
+  <div id="options">
+    <h3>Hats</h3>
+    <button onclick="dollHat(null)">None</button>
+    <button onclick="dollHat('blue-hat.png')">Light Blue Beanie</button>
+    <button onclick="dollHat('green-hat.png')">Green Cap</button>
+    <button onclick="dollHat('pink-hat.png')">Pink Fedora</button>
+
+    <h3>Tops</h3>
+    <button onclick="dollTop(null)">None</button>
+    <button onclick="dollTop('White-shirt.png')">White with Ruffles</button>
+    <button onclick="dollTop('Blue-shirt.png')">Fourth of July</button>
+    <button onclick="dollTop('shirt-flowers.png')">Flowers</button>
+
+    <h3>Pants</h3>
+    <button onclick="dollPants(null)">None</button>
+    <button onclick="dollPants('Denim.png')">Jeans</button>
+    <button onclick="dollPants('Khaki.png')">Khaki</button>
+    <button onclick="dollPants('Utility.png')">Periwrinkle</button>
+
+  </div>
+</body>
+</html>

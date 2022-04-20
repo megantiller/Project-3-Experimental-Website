@@ -1,0 +1,45 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+#doll {
+  display: inline-block;
+  position: relative;
+  width: auto;
+}
+
+#head,
+#torso,
+#legs {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+#head {
+  height: 25%;
+  top: 0;
+}
+
+#torso {
+  height: 50%;
+  top: 25%;
+  z-index: 1;
+}
+
+/* #scarf {
+  z-index: 2;
+} */
+
+#legs {
+  height: 50%;
+  top: 50%;
+}
